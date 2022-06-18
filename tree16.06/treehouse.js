@@ -19,8 +19,3 @@ document.querySelectorAll(".nav__a").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
-
-
-window.addEventListener("resize", function() {
-  if (window.innerWidth < 400) resize.classList.remove("hero-span-2");
-});

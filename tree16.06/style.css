@@ -16,6 +16,7 @@ html {
   max-width: 120rem;
   gap: 45rem;
   margin: 0 auto;
+  position: relative;
 }
 
 .header--logo--box {
@@ -95,11 +96,11 @@ html {
   overflow: hidden;
 }
 
-.hero--flex--spacing{
+.hero--flex--spacing {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center;     
+  align-items: center;
+  justify-content: center;
 }
 
 .hero--title {
@@ -323,10 +324,7 @@ html {
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
-}
-
-.relax--btn:link,
-.relax--btn:visited {
+  cursor: pointer;
 }
 
 .d {
@@ -701,6 +699,7 @@ html {
 }
 
 .contact-us {
+  cursor: pointer;
   display: inline-block;
   width: 17.3rem;
   height: 4.6rem;
@@ -771,6 +770,8 @@ html {
   font-weight: 700;
   font-family: "Montserrat";
   margin-bottom: 2rem;
+  white-space: nowrap;
+  padding-top: 0.5rem;
 }
 .Aboutus__contact__icon {
   /* align-self: center; */
@@ -795,6 +796,7 @@ html {
 }
 
 .Aboutus__contact__description {
+  display: inline-block;
   font-size: 1.5rem;
   color: #ececec;
   font-weight: 400;
@@ -802,7 +804,7 @@ html {
   margin-bottom: 1.7rem;
   align-self: flex-start;
   margin-bottom: 1rem;
-  flex-wrap: wrap;
+  white-space: wrap;
 }
 
 .Aboutus__contact__description__span {

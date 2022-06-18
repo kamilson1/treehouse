@@ -66,13 +66,13 @@
   }
 
   .nav__ul {
-    position: fixed;
+    position: absolute;
     right: -100%;
-    top: 0.55%;
+    top: 100%;
     gap: 0;
     flex-direction: column;
     background-color: white;
-    width: 20%;
+    width: 30%;
     text-align: center;
     transition: 0.3s;
     overflow: hidden;
@@ -162,7 +162,7 @@
     }
 
     .nav__ul {
-      top: 0.5%;
+      top: 100%;
     }
 
     /* latest section */
@@ -247,9 +247,8 @@
     }
 
     .nav__ul {
-      top: 0.45%;
+      top: 100%;
       max-width: 18%;
-      padding: 2.5rem;
     }
   }
 
@@ -262,9 +261,9 @@
     }
 
     .nav__ul {
-      top: 0.4%;
+      top: 100%;
       max-width: 18%;
-      padding: 2.5rem;
+      /* padding: 2.5rem; */
     }
   }
   /* *********** */
@@ -382,14 +381,17 @@
     }
 
     .icon1 {
-      font-size: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 7rem;
+      height: 7rem;
+      font-size: 4rem;
       color: #777;
       border: 3px solid #777777;
       border-radius: 50%;
-      padding: 4rem;
-      margin-bottom: 3rem;
-      align-self: center;
-      line-height: 0;
+      padding: 1rem;
+      margin-bottom: 2rem;
     }
 
     .title-cul {
@@ -486,7 +488,7 @@
     }
 
     .Aboutus__contact--boxes {
-      padding: 0 1rem;
+      padding: 0 3rem;
     }
   }
 }
