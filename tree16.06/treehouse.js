@@ -19,3 +19,12 @@ document.querySelectorAll(".nav__a").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+window.addEventListener("mouseup", function (event) {
+  const navMenu = document.querySelector(".nav__ul");
+  if (event.target != navMenu) {
+    navMenu.classList.remove("active");
+    hamBurger.classList.remove("active");
+  }
+});
+
