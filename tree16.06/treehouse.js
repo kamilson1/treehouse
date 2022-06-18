@@ -2,7 +2,7 @@ let btnh = document.querySelector(".hero--btn");
 btnh.type = "submit";
 btnh.name = "formBtn";
 btnh.addEventListener("click", function () {
-  alert("chuj ci w dupę frajerze");
+  alert("japs");
 });
 
 const hamBurger = document.querySelector(".hamburger");
